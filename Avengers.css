@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("resources/avengers-cover.jpg");
+    font-family: Arial, sans-serif;
+}
+
+header, nav, .superheroes {
+    padding: 1rem;
+    color: white;
+}
+
+.superheroes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.heroe {
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.hero-icons{
+    max-width: 30%;
+}
+
+#iron-man h2 {
+    color: #D32F2F;
+    margin-bottom: 1rem;
+}
+
+#iron-man {
+    border: 2px solid #D32F2F;
+}
+
+#cap-america h2 {
+    color: #285bff;
+    margin-bottom: 1rem;
+}
+
+#cap-america {
+    border: 2px solid #285BFFFF;
+}
+
+#thor h2 {
+    color: #B4B100FF;
+    margin-bottom: 1rem;
+}
+
+#thor {
+    border: 2px solid #b4b100;
+}
+
+#hulk h2 {
+    color: #4d980f;
+    margin-bottom: 1rem; /
+}
+
+#hulk {
+    border: 2px solid #4D980FFF;
+}
+
+#viuda-negra h2 {
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+#viuda-negra {
+    border: 2px solid #000000;
+}
+
+.heroe:nth-child(1) h2 { text-align: left; }
+.heroe:nth-child(2) h2, .heroe:nth-child(3) h2 { text-align: right; }
+.heroe:nth-child(4) h2 { text-align: center; }
+
+img {
+    width: 100%; /* Ajusta este valor como necesario */
+    border-radius: 5px; /* Para imágenes redondeadas */
+}
