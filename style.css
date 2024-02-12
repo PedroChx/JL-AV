@@ -5,13 +5,23 @@
     padding: 0;
 }
 
+.links{
+    color: #000000;
+    font-size: 20px;
+}
 
 body {
     background-color: white;
     font-family: Arial, sans-serif;
 }
 
-header, nav, .superheroes {
+header{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+nav, .superheroes {
     padding: 1rem;
     color: black;
 }
@@ -69,13 +79,42 @@ header, nav, .superheroes {
     box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, .30);
 }
 
-#viuda-negra h2 {
-    color: #000000;
+/*Avengers Style*/
+
+#iron-man h2 {
+    color: #D32F2F;
     margin-bottom: 1rem;
 }
 
-#viuda-negra {
-    border: 2px solid #000000;
+#iron-man {
+    box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, .30);
+}
+
+#cap-america h2 {
+    color: #285bff;
+    margin-bottom: 1rem;
+}
+
+#cap-america {
+    box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, .30);
+}
+
+#thor h2 {
+    color: #B4B100FF;
+    margin-bottom: 1rem;
+}
+
+#thor {
+    box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, .30);
+}
+
+#hulk h2 {
+    color: #4d980f;
+    margin-bottom: 1rem; /
+}
+
+#hulk   {
+    box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, .30);
 }
 
 .heroe:nth-child(1) h2 { text-align: left; }
